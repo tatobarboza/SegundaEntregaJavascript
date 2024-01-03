@@ -26,7 +26,7 @@ for(let i = 0; i < 5;i++) {
         resultado.forEach(jugador => { 
             alert(`Nombre: ${jugador.nombre}, Edad: ${jugador.edad}`);
             });
-      } else {
+      } else {  
         alert("No se encontraron jugadores con la edad ingresada.");
       } 
 };
